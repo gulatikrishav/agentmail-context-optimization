@@ -8,7 +8,7 @@ Retrieval systems optimize for similarity — which emails *look* relevant to a 
 
 ## How It Works
 
-**Pipeline:**
+**Pipeline** (offline experiment):
 1. Pull all threads from an AgentMail inbox via the API
 2. Embed each thread and the query using a pre-trained sentence transformer
 3. Rank threads by cosine similarity — select top-k dynamically by cutting where similarity scores fall off a cliff
