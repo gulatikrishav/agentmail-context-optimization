@@ -1,6 +1,6 @@
 # Causal Evaluation of Email Retrieval Pipelines
 
-A research experiment that measures, after retrieval, which context actually mattered for the correct answer — and quantifies how much retrieved context was unnecessary.
+A research experiment that measures, after retrieval, which context actually mattered for the correct answer — and how much retrieved context was unnecessary.
 
 ## The Problem
 
